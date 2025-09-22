@@ -22,7 +22,7 @@ This project demonstrates **CI/CD automation for a Node.js app** using **GitHub 
 2. Added Docker instructions to build the Node.js app image.  
 
 **Screenshot:**  
-![Dockerfile content](./screenshots\Dockerfile.png)
+![Dockerfile content](./screenshots/Dockerfile.png)
 
 ---
 
