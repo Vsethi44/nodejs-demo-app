@@ -13,7 +13,7 @@ This project demonstrates **CI/CD automation for a Node.js app** using **GitHub 
 3. Connected local folder to GitHub and pushed initial commit 
 
 **Screenshot:**  
-- ./screenshots/Repo_Push.png → Confirmation of initial code push on GitHub  
+![Confirmation of initial code push on GitHub](./screenshots/Repo_Push.png)
 
 ---
 
@@ -22,52 +22,53 @@ This project demonstrates **CI/CD automation for a Node.js app** using **GitHub 
 2. Added Docker instructions to build the Node.js app image.  
 
 **Screenshot:**  
-- `Dockerfile.png` → Dockerfile content  
+[Dockerfile content](./screenshots\Dockerfile.png)
 
 ---
 
 ## Step 3: Add package.json
 1. Initialized Node.js project:  
-```powershell
+
 npm init -y
+
 Pushed package.json to GitHub repo.
 
 Screenshot:
 
-PackageJSON.png → Content of package.json
+[Content of package.json](./screenshots/PackageJSON.png) 
 
 Step 4: Prepare GitHub Actions Workflow
-Created .github/workflows/main.yml.
 
-Defined workflow jobs:
+1. Created .github/workflows/main.yml.
+
+2. Defined workflow jobs:
 
 npm install
-
 Docker image build
-
 DockerHub push
 
 Screenshot:
 
-Workflow_File.png → main.yml content
+[main.yml content](./screenshots/Workflow_File.png)
 
 Step 5: Configure GitHub Secrets
-Added the following secrets in GitHub repo → Settings → Secrets → Actions:
+
+1. Added the following secrets in GitHub repo → Settings → Secrets → Actions:
 
 DOCKERHUB_USERNAME → DockerHub username
-
 DOCKERHUB_TOKEN → DockerHub access token
 
 Step 6: Run Workflow
-Pushed local changes or manually triggered workflow.
 
-GitHub Actions ran the workflow successfully.
+1. Pushed local changes or manually triggered workflow.
+
+2. GitHub Actions ran the workflow successfully.
 
 Screenshots:
 
-Workflow_Run.png → GitHub Actions workflow logs
+[GitHub Actions workflow logs](./screenshots/Workflow_Run.png)
 
-DockerHub_Image.png → Docker image on DockerHub
+[Docker image on DockerHub](./screenshots/DockerHub_Image.png)
 
 Step 7: Submission
 Task complete! ✅
