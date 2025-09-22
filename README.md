@@ -29,9 +29,9 @@ This project demonstrates **CI/CD automation for a Node.js app** using **GitHub 
 ## Step 3: Add package.json
 1. Initialized Node.js project:  
 
-npm init -y
+'npm init -y'
 
-Pushed package.json to GitHub repo.
+2. Pushed package.json to GitHub repo.
 
 Screenshot:
 
