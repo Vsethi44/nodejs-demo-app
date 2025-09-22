@@ -22,7 +22,7 @@ This project demonstrates **CI/CD automation for a Node.js app** using **GitHub 
 2. Added Docker instructions to build the Node.js app image.  
 
 **Screenshot:**  
-[Dockerfile content](./screenshots\Dockerfile.png)
+![Dockerfile content](./screenshots\Dockerfile.png)
 
 ---
 
@@ -35,7 +35,7 @@ Pushed package.json to GitHub repo.
 
 Screenshot:
 
-[Content of package.json](./screenshots/PackageJSON.png) 
+![Content of package.json](./screenshots/PackageJSON.png) 
 
 Step 4: Prepare GitHub Actions Workflow
 
@@ -49,7 +49,7 @@ DockerHub push
 
 Screenshot:
 
-[main.yml content](./screenshots/Workflow_File.png)
+![main.yml content](./screenshots/Workflow_File.png)
 
 Step 5: Configure GitHub Secrets
 
@@ -66,9 +66,9 @@ Step 6: Run Workflow
 
 Screenshots:
 
-[GitHub Actions workflow logs](./screenshots/Workflow_Run.png)
+![GitHub Actions workflow logs](./screenshots/Workflow_Run.png)
 
-[Docker image on DockerHub](./screenshots/DockerHub_Image.png)
+![Docker image on DockerHub](./screenshots/DockerHub_Image.png)
 
 Step 7: Submission
 Task complete! ✅
