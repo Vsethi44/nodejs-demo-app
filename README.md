@@ -1,7 +1,9 @@
 # Node.js Demo App – CI/CD Pipeline with GitHub Actions
 
 ## Project Overview
+
 This project demonstrates **CI/CD automation for a Node.js app** using **GitHub Actions** and **DockerHub**.  
+
 - **Objective:** Automate build and deployment of a Node.js app using Docker.  
 - **Tools:** GitHub, GitHub Actions, Node.js, Docker, DockerHub  
 
