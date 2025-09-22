@@ -74,4 +74,4 @@ Task complete! ✅
 
 GitHub repo link: https://github.com/Vsethi44/nodejs-demo-app
 
-DockerHub image: vsethi786/nodejs-demo-app:latest
+DockerHub image: https://hub.docker.com/repository/docker/vsethi786/nodejs-demo-app/general
