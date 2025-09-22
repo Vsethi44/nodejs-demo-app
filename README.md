@@ -37,7 +37,7 @@ Screenshot:
 
 ![Content of package.json](./screenshots/PackageJSON.png) 
 
-Step 4: Prepare GitHub Actions Workflow
+## Step 4: Prepare GitHub Actions Workflow
 
 1. Created .github/workflows/main.yml.
 
@@ -53,7 +53,7 @@ Screenshot:
 
 ![main.yml content](./screenshots/Workflow_File.png)
 
-Step 5: Configure GitHub Secrets
+## Step 5: Configure GitHub Secrets
 
 1. Added the following secrets in GitHub repo → Settings → Secrets → Actions:
 
@@ -61,7 +61,7 @@ DOCKERHUB_USERNAME → DockerHub username
 
 DOCKERHUB_TOKEN → DockerHub access token
 
-Step 6: Run Workflow
+## Step 6: Run Workflow
 
 1. Pushed local changes or manually triggered workflow.
 
@@ -73,7 +73,7 @@ Screenshots:
 
 ![Docker image on DockerHub](./screenshots/DockerHub_Image.png)
 
-Step 7: Submission
+## Step 7: Submission
 Task complete! ✅
 
 GitHub repo link: https://github.com/Vsethi44/nodejs-demo-app
