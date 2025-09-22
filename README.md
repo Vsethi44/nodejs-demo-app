@@ -43,9 +43,11 @@ Step 4: Prepare GitHub Actions Workflow
 
 2. Defined workflow jobs:
 
-npm install
-Docker image build
-DockerHub push
+- npm install
+
+- Docker image build
+
+- DockerHub push
 
 Screenshot:
 
@@ -56,6 +58,7 @@ Step 5: Configure GitHub Secrets
 1. Added the following secrets in GitHub repo → Settings → Secrets → Actions:
 
 DOCKERHUB_USERNAME → DockerHub username
+
 DOCKERHUB_TOKEN → DockerHub access token
 
 Step 6: Run Workflow
