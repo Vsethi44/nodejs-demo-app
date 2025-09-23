@@ -15,12 +15,15 @@ The workflow includes:
 
 1. Create a folder locally:
 
-bash ...
+**Commands:**
+
 mkdir nodejs-demo-app
+
 cd nodejs-demo-app
 
 2. Initialize Git and connect to GitHub:
 
+**Commands:**
 
 git init
 git remote add origin https://github.com/Vsethi44/nodejs-demo-app.git
@@ -38,11 +41,17 @@ git push -u origin main
 2. Added Docker instructions to build the Node.js app image. 
 
 FROM node:18
+
 WORKDIR /app
+
 COPY package*.json ./
+
 RUN npm install
+
 COPY . .
+
 EXPOSE 3000
+
 CMD ["npm", "start"]
 
 **Screenshot:**
@@ -53,15 +62,17 @@ CMD ["npm", "start"]
 
 1. Initialize Node.js project:
 
+**Run:**
+
 'npm init -y'
 
-2. Create package.json script and push it to Github repo:
+2. Create package.json script locally and push it to Github repo:
 
 **Screenshot:** 
 
 ![Content of package.json](./screenshots/PackageJSON.png) 
 
-3. Create index.js:
+3. Create index.js Locally:
 
 const express = require("express");
 const app = express();
@@ -105,14 +116,19 @@ DOCKERHUB_USERNAME → Your DockerHub username
 DOCKERHUB_TOKEN → Your DockerHub access token
 
 **Screenshot:**
+
 ![DockerHub secrets configured](./screenshots/dockerhub-secrets-configured.png)
 
 ## Step 6: Run Workflow
 
 1. Push code to trigger GitHub Actions workflow:
 
+**Commands:**
+
 git add .
+
 git commit -m "Trigger CI/CD workflow"
+
 git push
 
 2. Workflow builds and pushes Docker image to DockerHub
@@ -139,6 +155,7 @@ git push
 **Screenshots:**
 
 ![Terminal showing npm start output](./screenshots/terminal-npm-start-output.png)
+
 ![Browser displaying the running Node.js app](./screenshots/Local_App_Browser.png)
 
 ## Step 8: Docker Local Testing
@@ -156,7 +173,9 @@ docker run -p 3000:3000 nodejs-demo-app
 **Screenshots:**
 
 ![Docker image build successful](./screenshots/DockerHub_Image.png)
+
 ![Docker container running status shown in terminal](./screenshots/docker-container-running.png)
+
 ![Application successfully running inside the Docker container](./screenshots/app-running-inside-docker.png)
 
 ## Notes:
