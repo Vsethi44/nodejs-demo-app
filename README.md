@@ -26,9 +26,13 @@ cd nodejs-demo-app
 **Commands:**
 
 git init
+
 git remote add origin https://github.com/Vsethi44/nodejs-demo-app.git
+
 git add .
+
 git commit -m "Initial commit"
+
 git push -u origin main
 
 **Screenshot:**
