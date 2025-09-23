@@ -15,13 +15,13 @@ The workflow includes:
 
 1. Create a folder locally:
 
-```bash
+bash ...
 mkdir nodejs-demo-app
 cd nodejs-demo-app
 
 2. Initialize Git and connect to GitHub:
 
-```bash
+
 git init
 git remote add origin https://github.com/Vsethi44/nodejs-demo-app.git
 git add .
