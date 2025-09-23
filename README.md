@@ -39,55 +39,57 @@ git push -u origin main
 
 ![Confirmation of initial code push on GitHub](./screenshots/Repo_Push.png)
 
-## Step 2: Create Dockerfile
+## Step 2: Create Dockerfile Locally
 
-1. Created `Dockerfile` in project root (capital D, no extension).  
-2. Added Docker instructions to build the Node.js app image. 
+1. Create `Dockerfile` in project root (capital D, no extension).  
 
-FROM node:18
+**Command:**
 
-WORKDIR /app
+notepad Dockerfile
 
-COPY package*.json ./
+Paste Dockerfile content inside. 
 
-RUN npm install
+2. Push Dockerfile to GitHub:
 
-COPY . .
+git add Dockerfile
 
-EXPOSE 3000
+git commit -m "Add Dockerfile"
 
-CMD ["npm", "start"]
+git push
 
 **Screenshot:**
 
 ![Dockerfile content](./screenshots/Dockerfile.png)
 
-## Step 3: Add package.json
+## Step 3:  Add package.json & Create index.js
 
 1. Initialize Node.js project:
 
-**Run:**
+**Command:**
 
-'npm init -y'
+npm init -y
 
 2. Create package.json script locally and push it to Github repo:
+
+**Command:**
+
+notepad index.js
+
+Paste the Node.js code inside index.js.
+
+3. Push index.js to GitHub:
+
+**Commands:**
+
+git add index.js package.json
+
+git commit -m "Add index.js and package.json"
+
+git push
 
 **Screenshot:** 
 
 ![Content of package.json](./screenshots/PackageJSON.png) 
-
-3. Create index.js Locally:
-
-const express = require("express");
-const app = express();
-
-app.get("/", (req, res) => {
-  res.send("Hello from Node.js App!");
-});
-
-app.listen(3000, () => {
-  console.log("Server running on port 3000");
-});
 
 **Screenshots:** 
 
