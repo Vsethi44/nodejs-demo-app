@@ -1,20 +1,28 @@
 {
   "name": "nodejs-demo-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple Node.js demo app",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Vsethi44/nodejs-demo-app.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "nodejs",
+    "demo",
+    "docker"
+  ],
+  "author": "Vsethi44",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Vsethi44/nodejs-demo-app/issues"
   },
-  "homepage": "https://github.com/Vsethi44/nodejs-demo-app#readme"
+  "homepage": "https://github.com/Vsethi44/nodejs-demo-app#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
