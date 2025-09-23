@@ -47,9 +47,11 @@ git push -u origin main
 
 notepad Dockerfile
 
-Paste Dockerfile content inside. 
+- Paste Dockerfile content inside. 
 
 2. Push Dockerfile to GitHub:
+
+**Commands:**
 
 git add Dockerfile
 
@@ -75,7 +77,7 @@ npm init -y
 
 notepad index.js
 
-Paste the Node.js code inside index.js.
+- Paste the Node.js code inside index.js.
 
 3. Push index.js to GitHub:
 
