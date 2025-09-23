@@ -15,9 +15,9 @@ The workflow includes:
 
 1. Create a folder locally:
 
-- mkdir nodejs-demo-app
-
-- cd nodejs-demo-app
+```bash
+mkdir nodejs-demo-app
+cd nodejs-demo-app
 
 2. Initialize Git and connect to GitHub:
 
