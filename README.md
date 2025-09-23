@@ -21,7 +21,7 @@ cd nodejs-demo-app
 
 2. Initialize Git and connect to GitHub:
 
-
+```bash
 git init
 git remote add origin https://github.com/Vsethi44/nodejs-demo-app.git
 git add .
